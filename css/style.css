@@ -38,7 +38,6 @@ h2 {
 
 .main-header {
   position: relative;
-  background-color: aliceblue;
 }
 
 .main-navigation {
@@ -75,4 +74,116 @@ h2 {
   width: 100%;
   min-height: 510px;
   background-image: url(../img/bg-photo.jpg);
+}
+
+.big-image-top {
+  text-align: center;
+  padding-top: 76px;
+}
+
+.big-image-middle {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.big-image-footer {
+  text-align: center;
+  padding-top: 55px;
+}
+
+.description {
+  margin-top: 65px;
+  margin-bottom: 57px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.row .block-blue {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.row .block-image {
+  display: inline-block;
+  width: 66%;
+}
+
+.block-white {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 62px;
+  margin-bottom: 83px;
+}
+
+.block-grey {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 62px;
+  margin-bottom: 83px;
+}
+
+.search-header {
+  text-align: center;
+}
+
+.search-button {
+  margin-top: 50px;
+}
+
+.search-center {
+  min-height: 475px;
+  background-image: url(../img/map.jpg);
+}
+
+.search-form {
+  margin-left: 25%;
+  width: 575px;
+  min-height: 395px;
+}
+
+.date {
+  margin-left: 50%;
+}
+
+.number {
+  margin-left: 50%;
+}
+
+.number .number-adult {
+  display: inline-block;
+}
+
+.number .number-child {
+  display: inline-block;
+}
+
+.submit {
+  margin-left: 50%;
+}
+
+.main-footer {
+  min-height: 120px;
+}
+
+.footer-contact {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.footer-social {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.footer-copyright {
+  width: 33%;
+  float: right; 
+  text-align: center;
 }
