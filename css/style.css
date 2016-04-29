@@ -150,11 +150,13 @@ h2 {
 
 .search-button {
   position: absolute;
-  top: 205%;
+  top: -5%;
   left: 50%;
+  margin-left: -144px;
 }
 
 .search-center {
+  position: relative;
   min-height: 475px;
   background-image: url(../img/map.jpg);
 }
@@ -230,17 +232,12 @@ h2 {
 }
 
 .price {
-  float: right;
+  float: left;
   width: 50%;
-}
-
-.result {
-
 }
 
 .result-header {
   min-height: 86px;
-  vertical-align: middle;
 }
 
 .quantity {
@@ -263,9 +260,10 @@ h2 {
 .sort li {
   float: left;
   margin-right: 33px;
+  list-style: none;
 }
 
-.arrow {
+.sort-arrow {
   float: right;
 }
 
