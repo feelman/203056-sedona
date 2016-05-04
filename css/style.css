@@ -480,22 +480,52 @@ h2 {
 
 .filter {
   min-height: 217px;
+  color: #ffffff;
   background-image: url(../img/bg-filter.jpg);
+}
+
+.filter h2 {
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .infrastructure {
   float: left;
-  width: 20%;
+  width: 241px;
+  margin-left: 73px;
+}
+
+.checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox label {
+  position: relative;
+  display: block;
+  padding-left: 40px;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+.checkbox label:before {
+  position: absolute;
+  content: url(../img/checkbox.png);
+  margin-left: -41px;
+}
+
+.checkbox input[type="checkbox"]:checked ~ label:before {
+  content: url(../img/checkbox-active.png);
 }
 
 .house {
   float: left;
-  width: 30%;
+  width: 274px;
+  padding-left: 14px;
 }
 
 .price {
   float: left;
-  width: 50%;
+  width: 598px;
 }
 
 .result-header {
