@@ -61,7 +61,7 @@
               <img src="img/block-image1.jpg" alt="True City" width="800" height="256">
             </div>
           </div>
-          <div class="row">
+          <div class="row clearfix">
             <div class="block-white">
               <img src="img/icon-house.png" alt="House" width="75" height="72">
               <h2>Жилье</h2>
@@ -109,31 +109,45 @@
             <div class="search-header">
               <div class="search-description">
                 <span>Заинтересовались?</span>
-                <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+                <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
               </div>
             </div>
             <div class="search-center">
               <div class="search-button">
-                <a href="#" class="brown btn">Поиск гостиницы в седоне</a>
+                <a href="#">Поиск гостиницы в седоне</a>
               </div>
               <div class="search-form">
                 <form action="#">
-                  <div class="date">
-                    <input type="date" id="date-in"><label for="date-in">Дата заезда:</label>
+                  <div class="date date-in">
+                    <input type="text" id="date-in" value="24 апреля 2016">
+                    <label for="date-in">Дата заезда:</label>
+                    <div class="icon-calendar"></div>
                   </div>
-                  <div class="date">
-                    <input type="date" id="date-out"><label for="date-out">Дата выезда:</label>
+                  <div class="date date-out">
+                    <input type="text" id="date-out" value="4 июля 2016">
+                    <label for="date-out" >Дата выезда:</label>
+                    <div class="icon-calendar"></div>
                   </div>
                   <div class="number">
-                    <div class="number-adult">
-                      <a href="#">-</a><input type="text" id="number-adult" value="2"><a href="#">+</a><label for="number-adult">Взрослые:</label>
+                    <div class="number-form">
+                      <div class="number-form-block">
+                        <a href="#">-</a>
+                        <input type="text" id="number-adult" value="2">
+                        <a href="#">+</a>
+                      </div>
+                      <label for="number-adult">Взрослые:</label>
                     </div>
-                    <div class="number-child">
-                      <a href="#">-</a><input type="text" id="number-child" value="0"><a href="#">+</a><label for="number-child">Дети:</label>
+                    <div class="number-form">
+                      <div class="number-form-block">
+                        <a href="#">-</a>
+                        <input type="text" id="number-child" value="0">
+                        <a href="#">+</a>
+                      </div>
+                      <label for="number-child">Дети:</label>
                     </div>
                   </div>
                   <div class="submit">
-                    <input type="submit" class="blue btn" value="Найти">
+                    <input type="submit" class="btn-blue" value="Найти">
                   </div>
                 </form>
               </div>
@@ -146,12 +160,13 @@
               <h2>#Visitsedona</h2>
             </div>
             <div class="footer-social">
-              <a class="blue btn btn-twit" href="#">Twitter</a>
-              <a class="blue btn btn-fb" href="#">Facebook</a>
-              <a class="blue btn btn-youtube" href="#">Youtube</a>
+              <a class="btn btn-twit" href="#"></a>
+              <a class="btn btn-fb" href="#"></a>
+              <a class="btn btn-yt" href="#"></a>
             </div>
             <div class="footer-copyright">
-              <a href="https://htmlacademy.ru"><img src="img/copyright.png" alt="Htmlacademy.ru" width="113" height="39"></a>
+              <span>Website by</span>
+              <a href="https://htmlacademy.ru"></a>
             </div>
           </div>
         </footer>
