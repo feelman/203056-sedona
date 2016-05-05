@@ -712,16 +712,57 @@ h2 {
 }
 
 .hotel-card {
-  min-height: 151px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 73px;
+  padding-right: 73px;
+  border-top: 1px solid #dbd8d5;
+}
+
+.hotel-card:last-child {
+  border-bottom: 1px solid #dbd8d5;
 }
 
 .hotel-image {
   float: left;
   margin-right: 48px;
+  width: 135px;
+  height: 90px;
 }
 
 .hotel-info {
   float: left;
+}
+
+.hotel-info h2 {
+  margin-top: 0;
+}
+
+.hotel-description {
+  margin-top: -10px;
+  font-size: 14px;
+}
+
+.hotel-type {
+  display: inline-block;
+}
+
+.hotel-price {
+  display: inline-block;
+}
+
+.btn-more {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #81b3d2;
+  text-decoration: none;
+}
+
+.btn-reserv {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #766357;
+  text-decoration: none;
 }
 
 .hotel-rating {
