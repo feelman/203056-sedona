@@ -455,18 +455,19 @@ h2 {
   vertical-align: middle;
 }
 
-.footer-copyright a {
+.copyright-image {
   display: inline-block;
   width: 113px;
   height: 39px;
+  cursor: pointer;
   background-image: url(../img/copyright.png);
 }
 
-.footer-copyright:hover a {
+.copyright-image:hover {
   background-image: url(../img/copyright-hover.png);
 }
 
-.footer-copyright:active a {
+.copyright-image:active {
   background-image: url(../img/copyright-active.png);
 }
 
