@@ -385,8 +385,8 @@ h2 {
 }
 
 .main-footer {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .footer-contact {
@@ -740,11 +740,13 @@ h2 {
 
 .hotel-description {
   margin-top: -10px;
+  margin-bottom: 14px;
   font-size: 14px;
 }
 
 .hotel-type {
   display: inline-block;
+  margin-right: 36px;
 }
 
 .hotel-price {
@@ -752,19 +754,53 @@ h2 {
 }
 
 .btn-more {
+  margin-right: 3px;
+  padding: 4px 17px;
   font-weight: bold;
   color: #ffffff;
   background-color: #81b3d2;
   text-decoration: none;
 }
 
+.btn-more:hover {
+  background-color: #669ec0;
+}
+
+.btn-more:active {
+  color: rgba(255,255,255,0.3);
+  background-color: #5496bd;
+}
+
 .btn-reserv {
+  padding: 4px 17px;
   font-weight: bold;
   color: #ffffff;
   background-color: #766357;
   text-decoration: none;
 }
 
+.btn-reserv:hover {
+  background-color: #604e43;
+}
+
+.btn-reserv:active {
+  color: rgba(255,255,255,0.3);
+  background-color: #503e33;
+}
+
 .hotel-rating {
   float: right;
+}
+
+.star {
+  display: block;
+  margin-bottom: 45px;
+  font-size: 20px;
+  text-align: right;
+  color: #81b3d2;
+}
+
+.rating {
+  padding: 0 15px;
+  background-color: #f2f2f2;
 }
