@@ -243,7 +243,7 @@ h2 {
 }
 
 .date input {
-  width: 333px;
+  width: 329px;
   height: 38px;
   padding-left: 15px;
   font-weight: bold;
@@ -314,7 +314,7 @@ h2 {
 }
 
 .number-form input {
-  width: 38px;
+  width: 36px;
   height: 38px;
   text-align: center;
   font-weight: bold;
@@ -361,7 +361,7 @@ h2 {
 }
 
 .submit .btn-blue {
-  width: 100%;
+  width: 458px;
   height: 58px;
   border: none;
   font-size: 21px;
