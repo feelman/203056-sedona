@@ -524,13 +524,121 @@ h2 {
   padding-left: 14px;
 }
 
-.price {
+.price-range {
   float: left;
-  width: 598px;
+  width: 330px;
+  margin-left: 200px;
+}
+
+.price-controls {
+  position: relative;
+  height: 36px;
+  margin-bottom: 20px;
+  font-size: 0;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+}
+
+.price-controls::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 22px;
+  background: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+.price-controls label {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 38px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.price-controls .min-price,
+.price-controls .max-price {
+  width: 90px;
+  padding-left: 65px;
+}
+
+.price-controls input {
+  width: 50px;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.range-controls {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.range-controls .scale {
+  height: 2px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+  background: #ffffff;
+}
+
+.range-toggle {
+  position: absolute;
+  top: -9px;
+  width: 4px;
+  height: 4px;
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  background: #1c4f80;
+}
+
+.range-toggle-min {
+  left: 0;
+}
+
+.range-toggle-max {
+  left: 80%;
+}
+
+.btn-filter {
+  display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-filter:hover {
+  color: #000000;
+  background: #ffffff;
 }
 
 .result-header {
-  min-height: 86px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 73px;
+  padding-right: 73px;
 }
 
 .quantity {
@@ -544,6 +652,8 @@ h2 {
 .sort span {
   float: left;
   margin-left: 48px;
+  margin-top: 15px;
+  font-size: 12px;
 }
 
 .sort ul {
@@ -556,8 +666,49 @@ h2 {
   list-style: none;
 }
 
+.sort li a {
+  font-size: 12px;
+  color: #dbd8d5;
+  text-decoration: none;
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.sort li a:hover {
+  color: #81b3d2;
+}
+
+.sort li a:active {
+  color: #000000;
+  border-bottom: none;
+}
+
+.sort li a.active {
+  color: #81b3d2;
+  text-decoration: none;
+  border-bottom: none;
+}
+
 .sort-arrow {
   float: right;
+  margin-top: 15px;
+}
+
+.sort-arrow a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.sort-arrow a:hover {
+  color: #000000;
+}
+
+.sort-arrow a:active {
+  color: #81b3d2;
+}
+
+.sort-arrow a.active {
+  padding-left: 10px;
+  color: #81b3d2;
 }
 
 .hotel-card {

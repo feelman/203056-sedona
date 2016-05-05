@@ -59,19 +59,20 @@
                   <input type="checkbox" id="checkbox6"><label for="checkbox6">Аппартаменты</label>
                 </div>
               </div>
-              <div class="price">
+              <div class="price-range">
                 <h2>Стоимость в сутки (р):</h2>
-                <div class="price-from">
-                  <input type="text" id="price-from" value="от 0">
+                <div class="price-controls">
+                  <label class="min-price">от <input type="text" id="min-price" value="0"></label>
+                  <label class="max-price">до <input type="text" id="max-price" value="3000"></label>
                 </div>
-                <div class="price-to">
-                  <input type="text" id="price-to" value="до 3000">
+                <div class="range-controls">
+                  <div class="scale">
+                    <div class="bar"></div>
+                  </div>
+                  <div class="range-toggle range-toggle-min"></div>
+                  <div class="range-toggle range-toggle-max"></div>
                 </div>
-                <div class="range">
-                </div>
-                <div class="submit">
-                  <input type="submit" class="btn-filter" value="Показать">
-                </div>
+                <input type="submit" class="btn-filter" value="Показать">
               </div>
             </form>
           </div>
