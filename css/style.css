@@ -215,8 +215,18 @@ h2 {
   background-image: url(../img/map.jpg);
 }
 
+@keyframes move {
+  0%   {
+    transform: translateY(-85px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .search-form {
   position: absolute;
+  display: none;
   width: 460px;
   min-height: 285px;
   left: 50%;
@@ -224,6 +234,11 @@ h2 {
   padding: 55px 55px;
   background: white;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.search-form-show {
+  display: block;
+  animation: move 0.7s;
 }
 
 .date {
